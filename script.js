@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // Replace this URL with your Google Apps Script Web App URL
+  
   const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyU9lB733ORvHg5w55GivlMu348vfn3um2b3fyZJYZxYljixqEYUGzY9Q0FPhN8zmDk/exec";
 
-  /* 1. GLOBE CANVAS */
+  
   const canvas = document.getElementById('globe-canvas');
   if (canvas) {
     const ctx = canvas.getContext('2d');
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     drawWireframeGlobe();
   }
 
-  /* 2. SCROLL PROGRESS */
+  
   const scrollProgress = document.getElementById('scroll-progress');
   window.addEventListener('scroll', () => {
     const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /* 3. FADE OBSERVER */
+  
   const fadeObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
 
-  /* 4. GOOGLE SHEET FORM SUBMISSION */
+  
   const contactForm = document.getElementById('contact-form');
   const statusMsg = document.getElementById('form-status');
 
