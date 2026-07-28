@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Futuristic Personal Portfolio">
+  <title>My portfolio</title>
+  
+  <!-- Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="scroll-progress" aria-hidden="true"></div>
+  <canvas id="globe-canvas" aria-hidden="true"></canvas>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo">
+        <!-- <span class="logo-icon"><i class="fa-solid fa-shapes"></i></span> -->
+        <span class="logo-text">Sheikh Ibsan Uddin</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about">ABOUT</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#achievements">ACHIEVEMENTS</a>
+        <a href="#showcase">SHOWCASE</a>
+        <a href="#publications">PUBLICATIONS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <!-- <div class="nav-meta">
+        <span class="portfolio-year">2026 PORTFOLIO</span>
+        <span class="status-dot"></span>
+      </div> -->
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (HOME) -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        
+        <div class="hero-left">
+          <h1 class="hero-headline">
+            Sheikh Ibsan<br>
+            <span class="highlight-green">Uddin</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            CSE Student • AI/ML Enthusiast • Web Developer <span class="highlight-text-green">• Competitive Programmer</span>
+          </p>
+
+          <div class="hero-actions">
+            <a href="cv/ibsan_cv_june_2026.pdf" download class="btn-primary">
+              <i class="fa-solid fa-file-arrow-down"></i> DOWNLOAD CV
+            </a>
+            
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://facebook.com/yourusername" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <!-- <div class="pill-widgets">
+            <div class="pill-badge">
+              <i class="fa-solid fa-globe"></i>
+              <div>
+                <span class="pill-title">BASED IN</span>
+                <span class="pill-val">EARTH</span>
+              </div>
+            </div>
+
+            <div class="pill-badge">
+              <i class="fa-solid fa-paper-plane"></i>
+              <div>
+                <span class="pill-title">WORKING</span>
+                <span class="pill-val">WORLDWIDE</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- <div class="hero-right">
+          <div class="hero-image-wrapper">
+            <div class="halo-glow"></div> -->
+            <!-- Standard placeholder or replace with your image -->
+          
+            
+            <!-- <div class="glass-status-card">
+              <span class="status-label">AVAILABLE FOR</span>
+              <span class="status-value">FREELANCE</span>
+              <span class="status-sub">PROJECTS</span>
+              <span class="green-indicator"></span>
+            </div> -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>ABOUT ME</h2>
+          </div>
+          <span class="section-meta-text">WHO I AM</span>
+        </div>
+
+        <div class="about-card glass-card fade-in">
+          <p class="about-text"> 
+          Hi, I'm Sheikh Ibsan Uddin, a Computer Science and Engineering (CSE) student passionate about software development, Artificial Intelligence, Machine Learning, and Competitive Programming.
+          I enjoy building clean, responsive web applications with HTML, CSS, and C++, while continuously strengthening my skills in Data Structures & Algorithms and exploring AI/ML through hands-on projects. I love solving challenging problems, learning new technologies, and turning ideas into practical solutions.
+          I'm always eager to learn, build, and collaborate, with the goal of becoming a software engineer who creates impactful AI-powered applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>EDUCATION</h2>
+          </div>
+          <span class="section-meta-text">ACADEMIC BACKGROUND</span>
+        </div>
+
+        <div class="timeline-grid">
+
+          <div class="timeline-card glass-card fade-in">
+            <span class="card-num">2020 - 2022</span>
+            <h3>SSC</h3>
+            <p class="institution">Chittagong Municipal Model School and Collage</p>
+            
+          </div>
+
+          <div class="timeline-card glass-card fade-in">
+            <span class="card-num">2020 - 2022</span>
+            <h3>HSC</h3>
+            <p class="institution">Saint Placids School and Collage</p>
+          </div>
+
+          <div class="timeline-card glass-card fade-in">
+            <span class="card-num">2025 - NOW</span>
+            <h3>B.Sc IN COMPUTER SCIENCE & ENGINEERING</h3>
+            <p class="institution">International Islamic University Chittagong</p>
+            <!-- <p>Specialized in Human-Computer Interaction, Interactive Media, and Software Systems Architecture.</p> -->
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>PROJECTS</h2>
+          </div>
+          <span class="section-meta-text">SELECTED WORK</span>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass-card fade-in">
+            <div class="project-img-wrapper">
+              <img src="img/Screenshot 2026-07-28 170511.png" alt="Space Shooter Game">
+            </div>
+            <div class="project-meta">
+              <span class="project-num">01</span>
+              <div>
+                <h3>SPACE SHOOTER GAME</h3>
+                <p>Classic Space Invaders arcade clone built from scratch with C++.</p>
+              </div>
+              <a href="https://github.com/Sheikh-Ibsan" class="project-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card glass-card fade-in">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Launchpad Website">
+            </div>
+            <div class="project-meta">
+              <span class="project-num">02</span>
+              <div>
+                <h3>LAUNCHPAD PLATFORM</h3>
+                <p>SaaS landing page and UI Kit.</p>
+              </div>
+              <a href="https://github.com/Sheikh-Ibsan" class="project-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card glass-card fade-in">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80" alt="Elevate App">
+            </div>
+            <div class="project-meta">
+              <span class="project-num">03</span>
+              <div>
+                <h3>ELEVATE APP</h3>
+                <p>Mobile banking application UI/UX.</p>
+              </div>
+              <a href="https://github.com/Sheikh-Ibsan" class="project-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card glass-card fade-in">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80" alt="Elevate App">
+            </div>
+            <div class="project-meta">
+              <span class="project-num">03</span>
+              <div>
+                <h3>ELEVATE APP</h3>
+                <p>Mobile banking application UI/UX.</p>
+              </div>
+              <a href="https://github.com/Sheikh-Ibsan" class="project-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>ACHIEVEMENTS</h2>
+          </div>
+          <span class="section-meta-text">MILESTONES</span>
+        </div>
+
+        <div class="stats-banner glass-card fade-in">
+          <div class="stat-box">
+            <span class="stat-number">rising star</span>
+            <span class="stat-label">programing contest</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number">4th</span>
+            <span class="stat-label">programing contest</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number">5th</span>
+            <span class="stat-label">national air gun(junior)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number">15th</span>
+            <span class="stat-label">national air gun(senior)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWCASE / BLOGS / VLOGS / HOBBIES -->
+    <section id="showcase" class="section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>SHOWCASE & HOBBIES</h2>
+          </div>
+          <span class="section-meta-text">BLOGS, VLOGS & CREATIVE WORK</span>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card glass-card fade-in">
+            <div class="card-top">
+              <div class="card-icon"><i class="fa-solid fa-blog"></i></div>
+              <span class="card-num">01</span>
+            </div>
+            <h3>DESIGN BLOG</h3>
+            <p>Articles on UI Design Systems and CSS Motion Design.</p>
+            <a href="#" class="card-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+
+          <div class="service-card glass-card fade-in">
+            <div class="card-top">
+              <div class="card-icon"><i class="fa-solid fa-video"></i></div>
+              <span class="card-num">02</span>
+            </div>
+            <h3>TECH VLOGS</h3>
+            <p>Video tutorials detailing web builds and workspace setups.</p>
+            <a href="#" class="card-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+
+          <div class="service-card glass-card fade-in">
+            <div class="card-top">
+              <div class="card-icon"><i class="fa-solid fa-camera"></i></div>
+              <span class="card-num">03</span>
+            </div>
+            <h3>PHOTOGRAPHY</h3>
+            <p>Urban architecture and minimal lighting experiments.</p>
+            <a href="#" class="card-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+
+          <div class="service-card glass-card fade-in">
+            <div class="card-top">
+              <div class="card-icon"><i class="fa-solid fa-cube"></i></div>
+              <span class="card-num">04</span>
+            </div>
+            <h3>3D EXPERIMENTS</h3>
+            <p>Interactive Canvas and Three.js shader art snippets.</p>
+            <a href="#" class="card-arrow"><i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS SECTION -->
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>PUBLICATIONS</h2>
+          </div>
+          <span class="section-meta-text">PAPERS & ARTICLES</span>
+        </div>
+
+        <div class="publication-list">
+          <div class="pub-card glass-card fade-in">
+            <div class="pub-meta">
+              <span class="card-num">2025</span>
+              <h3>Scalable Glassmorphism in Modern Web Interfaces</h3>
+            </div>
+            <p>Published in the International Journal of Human-Computer Studies. Discusses performance optimizations for CSS backdrop-filters.</p>
+            <a href="#" class="pub-link">READ PAPER <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION WITH GOOGLE SHEET INTEGRATION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-bar">
+          <div class="section-tag">
+            <span class="square-icon"></span>
+            <h2>LET'S WORK TOGETHER</h2>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-left">
+            <h2 class="contact-title">
+              HAVE A PROJECT<br>
+              <span class="highlight-green">IN MIND?</span>
+            </h2>
+            <p class="contact-subtext">
+              Fill out the form to send a message straight to my inbox.
+            </p>
+
+            <!-- Contact Form Connected to Google Sheet Script -->
+            <form id="contact-form" class="contact-form glass-card">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" id="submit-btn" class="btn-primary">
+                SEND MESSAGE <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <div id="form-status" class="form-status-msg"></div>
+            </form>
+          </div>
+
+          <div class="contact-right-cards">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sheikhibsanuddin@gmail.com" target="_blank" class="info-pill glass-card">
+              <i class="fa-regular fa-envelope"></i>
+              <div>
+                <span class="info-label">EMAIL</span>
+                <span class="info-value">SHEIKH IBSAN UDDIN</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/Sheikh-Ibsan" target="_blank" class="info-pill glass-card">
+              <i class="fa-solid fa-globe"></i>
+              <div>
+                <span class="info-label">GITHUB</span>
+                <span class="info-value">SHEIKH IBSAN UDDIN</span>
+              </div>
+            </a>
+
+            <div class="info-pill glass-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="info-label">LOCATION</span>
+                <span class="info-value">CHITTAGONG, BANGLADESH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-copy">&copy; 2026 SHEIKH IBSAN UDDIN</span>
+      </div>
+      <div class="footer-right">
+        <span class="footer-motto">WRONG ANS ON TEST CASE 99</span>
+        <span class="footer-accent-box"></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
