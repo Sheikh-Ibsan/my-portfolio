@@ -1,1 +1,2 @@
-# figma link - https://www.figma.com/design/2Tm5Xwndje1bLyuf03t0SM/Untitled?node-id=0-1&t=g133iaERN4u2SkFM-1
+## figma link - https://www.figma.com/design/2Tm5Xwndje1bLyuf03t0SM/Untitled?node-id=0-1&t=g133iaERN4u2SkFM-1
+## google sheet link - https://docs.google.com/spreadsheets/d/18XSOryLFB1NDkxVs-dXvhcv2qSEQ-mdx9UYCDgrT_2k/edit?usp=sharing
