@@ -109,8 +109,8 @@ Optimized across all viewport sizes using modern CSS techniques and glassmorphis
 
 ## External Resources & Links
 
-* **Figma Design:** [View Figma File](https://www.figma.com/design/2Tm5Xwndje1bLyuf03t0SM/Untitled?node-id=0-1&t=g133iaERN4u2SkFM-1)
-* **Google Sheets Form Database:** [View Google Sheet Response Ledger](https://docs.google.com/spreadsheets/d/18XSOryLFB1NDkxVs-dXvhcv2qSEQ-mdx9UYCDgrT_2k/edit?usp=sharing)
+* **Figma Design:** [View Figma File](https://www.figma.com/design/2Tm5Xwndje1bLyuf03t0SM/Untitled?node-id=0-1&t=AFZB1ww48UBht85e-1)
+* **Google Sheets Form Database:** [View Google Sheet Response Ledger](https://docs.google.com/spreadsheets/d/18XSOryLFB1NDkxVs-dXvhcv2qSEQ-mdx9UYCDgrT_2k/edit?gid=0#gid=0)
 
 ---
 
