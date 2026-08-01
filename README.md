@@ -38,10 +38,10 @@ A modern, responsive personal portfolio website built with clean glassmorphism U
   * **Space Shooter Game:** Arcade Space Invaders clone built from scratch in C++ using Raylib.
 
 ### Showcase & Hobbies
-* Service and hobby cards covering Design Blogs, Tech Vlogs, Architectural Photography, and 3D Canvas / Three.js Experiments.
+* Service and hobby cards covering Design Blogs, Tech Vlogs, Architectural Photography, and 3D Canvas / Three.js Experiments. <b>(demo)</b>
 
 ### Publications
-* Academic papers showcase section including details on *"Scalable Glassmorphism in Modern Web Interfaces"* (published in International Journal of Human-Computer Studies).
+* Academic papers showcase section including details on *"Scalable Glassmorphism in Modern Web Interfaces"* (published in International Journal of Human-Computer Studies).<b>(demo)</b>
 
 ### Contact
 * **Interactive Contact Form:** Asynchronous form submission powered by JavaScript `fetch` and linked directly to Google Apps Script (`exec` endpoint) saving messages straight to Google Sheets.
